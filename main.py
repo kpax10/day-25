@@ -43,10 +43,11 @@ import pandas
 # monday_in_f = (monday.temp * 1.8) + 32
 # print(monday_in_f)
 
-data_dict = {
-    "students": ["Amy", "James", "Angela"],
-    "scores": [76, 56, 65]
-}
+# data_dict = {
+#     "students": ["Amy", "James", "Angela"],
+#     "scores": [76, 56, 65]
+# }
+#
+# data = pandas.DataFrame(data_dict)
+# data.to_csv("students.csv")
 
-data = pandas.DataFrame(data_dict)
-data.to_csv("students.csv")
